@@ -1,0 +1,2 @@
+mpicc {name}.c -lm -o {name}
+mpirun -np 2 ./{name}
